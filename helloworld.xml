@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension version="3.1" type="component" method="upgrade">
+    <name>Hello World</name>
+    <author>Aladar Barthi</author>
+    <creationDate>August 2018</creationDate>
+    <copyright>Copyright (C) 2018 - 2020 Updatr.io. All rights reserved.</copyright>
+    <license>GNU General Public License version 2 or later; see LICENSE.txt</license>
+    <authorEmail>support@updatr.io</authorEmail>
+    <authorUrl>updatr.io</authorUrl>
+    <version>1.0.0</version>
+    <description>Hello World component for Joomla.</description>
+
+    <files folder="site">
+        <filename>helloworld.php</filename>
+        <folder>views</folder>
+    </files>
+
+    <administration>
+        <menu view="default">Hello World</menu>
+
+        <files folder="admin">
+            <filename>helloworld.php</filename>
+            <filename>config.xml</filename>
+            <folder>fields</folder>
+        </files>
+    </administration>
+
+    <updateservers>
+        <server type="extension" name="Hello World Joomla Component Updates">http://sandbox.updatr.vagrant/api/v1/update-channels/hello-world-joomla-component-updates.xml</server>
+    </updateservers>
+</extension>
