@@ -9,7 +9,7 @@
             >
             <field
                 name="download_key"
-                type="updatr_downloadkey"
+                type="updatercloud_downloadkey"
                 label="Download Key"
                 description="Download key field description"
                 default=""

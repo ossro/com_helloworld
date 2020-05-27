@@ -3,10 +3,10 @@
     <name>Hello World</name>
     <author>Aladar Barthi</author>
     <creationDate>August 2018</creationDate>
-    <copyright>Copyright (C) 2018 - 2020 Updatr.io. All rights reserved.</copyright>
+    <copyright>Copyright (C) 2018 - 2020 UpdaterCloud.com. All rights reserved.</copyright>
     <license>GNU General Public License version 2 or later; see LICENSE.txt</license>
-    <authorEmail>support@updatr.io</authorEmail>
-    <authorUrl>updatr.io</authorUrl>
+    <authorEmail>support@updatercloud.com</authorEmail>
+    <authorUrl>updatercloud.com</authorUrl>
     <version>1.0.0</version>
     <description>Hello World component for Joomla.</description>
 
@@ -26,6 +26,6 @@
     </administration>
 
     <updateservers>
-        <server type="extension" name="Hello World Joomla Component Updates">http://sandbox.updatr.vagrant/api/v1/update-channels/hello-world-joomla-component-updates.xml</server>
+        <server type="extension" name="Hello World Joomla Component Updates">http://sandbox.updatercloud.vagrant/api/v1/update-channels/hello-world-joomla-component-updates.xml</server>
     </updateservers>
 </extension>
